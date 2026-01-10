@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Like Chat</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: 
+        linear-gradient(120deg, rgba(106, 92, 205, 0.8), rgba(125, 39, 7, 0.8)), /* Полупрозрачный градиент */
+        url('pattern.png'); /* Паттерн */
+    background-repeat: repeat; /* Повторение паттерна */
+    background-size: auto; /* Паттерн не будет растягиваться */
+    background-attachment: fixed; /* Фон будет фиксированным */
+}
+
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 75%;
+            display: flex;
+            align-items: flex-start;
+        }
+		
+		.message-date {
+    display: block; /* Отображение на новой строке */
+    font-size: 0.8em; /* Уменьшенный шрифт */
+    color: #888; /* Цвет для даты */
+    margin-top: 5px; /* Отступ сверху */
+}
+
+        .from-user {
+            background-color: #c7e8ff;
+            align-self: flex-end;
+        }
+
+        .from-receiver {
+            background-color: #e0e0e0;
+            align-self: flex-start;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .message img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .message-input {
+            flex: 1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .send-button {
+            margin-left: 10px;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .send-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Адаптивность для мобильных устройств */
+        @media (max-width: 480px) {
+            .header, .footer {
+                padding: 15px;
+            }
+
+            .message-input {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        
+<main class="chat">
+<div class="message from-receiver">
+        <img src="user-avatar1.jpg" alt="Аватар" class="user-avatar">
+        <div>
+            <strong>bojik</strong>
+            <p>Сгенерировал свой собственный блог, пока нраица. Да, конечно не Video Development Resource,
+			но всё же что то. <br><br>Теперь могу выполнять щитпост не только в видео формате, но ещё и без цензуры и регистраций...</p>
+            
+			<span class="message-date">09 Янв 2026, 18:38</span>
+        </div>
+    </div>
+
+</main>
+        
+
+    </div>
+</body>
+</html>
