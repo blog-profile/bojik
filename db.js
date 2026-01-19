@@ -1,4 +1,5 @@
 var database=[
+``,
 `<img src="img/brt.png" alt="img">
             <p>Вчера откопал квесты к игре golden keygen (ММО по вселенной Буратино, в место которой я сделал
 			Anni di piombo). Почитал, в общем это просто скриндж, что я писал в 2021. Вот ссылочка:<br>
@@ -104,3 +105,4 @@ var database=[
             
 			<span class="message-date">09 Янв 2026, 18:38</span>`,
 ]
+
