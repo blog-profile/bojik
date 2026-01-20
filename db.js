@@ -2,7 +2,8 @@ var database=[
 `<img src="img/TuxRacerScreenshot.jpg" alt="img">
 <p>А до чего же tux racer эволюционировал.
 <a href="https://www.youtube.com/watch?v=omha5zJkAGM" class="close" target="_blank">Уже до версии 1.1</a>,
-но с трёхколёсниками пока не ровня.</p>
+но с трёхколёсниками пока не ровня.
+</p>
 <span class="message-date">20 Янв 2026, 17:47</span>`,
 `<p>Переделал порядок сообщений в блоге (теперь новые сообщения появляются с верху). Сейчас в блоге отображаются
 5 последних сообщений, чтобы прогрузить ещё 5, нужно пролистать страницу в самый низ, и так по циклу.
@@ -115,6 +116,7 @@ var database=[
             
 			<span class="message-date">09 Янв 2026, 18:38</span>`,
 ]
+
 
 
 
