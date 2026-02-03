@@ -31,8 +31,11 @@ var database=[
 Конструктор схож по функционалу с
 <a href="https://threejs.org/editor/" class="close" target="_blank">three.js editor</a>
 , так как на момент начала разработки
-я не знал о существовании эдитора.<br><br>
-Видосики по конструктору<br><br>
+я не знал о существовании эдитора.
+<video width="320" height="240" controls>
+			<source src="video/3d constructor.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video><br>
 Суть конструктора была той же, что и у
 <a href="https://proginvert.github.io/1D-RPG-Constructor/" class="close" target="_blank">1RC</a>
 , а то есть упростить разработку игр.
@@ -221,6 +224,7 @@ var database=[
             
 			<span class="message-date">09 Янв 2026, 18:38</span>`,
 ]
+
 
 
 
